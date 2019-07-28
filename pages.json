@@ -1,0 +1,42 @@
+{
+	"pages": [{
+			"path": "pages/list/list",
+			"style": {
+				"h5":{
+					"titleNView":{
+						"buttons":[{
+						   "text": "\ue71b",  
+							"fontSrc": "/static/fonts/iconfont.ttf",  
+							"fontSize": "22px"  
+						}]
+					}
+				},
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+						   "text": "\ue71b",  
+							"fontSrc": "/static/fonts/iconfont.ttf",  
+							"fontSize": "22px"  
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {}
+		},
+		{
+			"path": "pages/ucenter/ucenter",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "CNode中文社区",
+		"navigationBarBackgroundColor": "#444444",
+		"backgroundColor": "#FFFFFF"
+	}
+}
